@@ -1,5 +1,14 @@
 # Ansible role `pxeserver`
 
+Forked from https://github.com/bertvv/ansible-role-pxeserver
+
+Major differences:
+- Uses HTTP on boot configuration to retrieve kernel, initramfs and kickstart configuration
+- Does not setup NFS
+- Designed to be used with https://github.com/wyrmiyu/ansible-role-pxeserver-layout
+
+Original readme follows...
+
 An Ansible role for setting up a PXE boot server.
 
 - Install necessary packages
@@ -74,4 +83,3 @@ BSD
 ## Author Information
 
 Bert Van Vreckem (bert.vanvreckem@gmail.com)
-

@@ -1,7 +1,7 @@
 # roles/pxeserver/handlers/main.yml
 ---
 
-- name: restart nfs
+- name: restart httpd
   service:
-    name: nfs
+    name: httpd
     state: restarted

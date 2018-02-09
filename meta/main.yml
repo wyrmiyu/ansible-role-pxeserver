@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  author: Bert Van Vreckem
+  author: Pekka Wallendahl
   description: Role for setting up a PXE server on RHEL/CentOS 7
   company:
   license: BSD
@@ -15,3 +15,4 @@ galaxy_info:
 dependencies:
   - bertvv.tftp
   - bertvv.dhcp
+  - https://github.com/wyrmiyu/ansible-role-pxeserver-layout
